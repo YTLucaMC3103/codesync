@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['@iconify/react', 'lucide-react'],
+      external: ['@iconify/react', 'lucide-react', '@supabase/supabase.js'],
     }
   },
   plugins: [react()],

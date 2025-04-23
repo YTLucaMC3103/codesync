@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['@iconify/react']
+      external: ['@iconify/react', 'lucide-react'],
     }
   },
   plugins: [react()],
